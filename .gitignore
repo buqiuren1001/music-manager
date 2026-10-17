@@ -1,0 +1,19 @@
+# ===== 编译产物 =====
+*.exe
+dist/
+build/
+
+# ===== 用户个人数据（音乐库/配置/歌词/封面）=====
+# 包含受版权保护的音乐文件与个人 API 配置，请勿提交
+cangku/
+
+# ===== 运行日志 =====
+selftest.log
+guismoke.log
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
